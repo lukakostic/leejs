@@ -22,30 +22,6 @@ HTML:
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Column 3</h5>
-              <p class="card-text">This column's width will adjust to fit the available space</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Column 4</h5>
-              <p class="card-text">This column's width will adjust to fit the available space</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Column 5</h5>
-              <p class="card-text">This column's width will adjust to fit the available space</p>
-            </div>
-          </div>
-        </div>
             
       </div>
     </div>
@@ -69,8 +45,6 @@ LeeJS
               div($I`#sortable.row.flex-nowrap`,
                 [[`Column 1`,`This column's width will adjust to fit the available space`]
                 ,[`Column 2`,`This column's width will adjust to fit the available space`]
-                ,[`Column 3`,`This column's width will adjust to fit the available space`]
-                ,[`Column 4`,`This column's width will adjust to fit the available space`]
                 ].map(([title,text])=>c(title,text))
               )
             ),

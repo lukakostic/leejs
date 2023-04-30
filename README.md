@@ -5,6 +5,7 @@ HTML:
 ```html
 <div class="container-fluid">
       <div class="row flex-nowrap" id="sortable">
+            
         <div class="column">
           <div class="card">
             <div class="card-body">
@@ -46,6 +47,7 @@ HTML:
           </div>
         </div>
       </div>
+      
     </div>
 ```
 

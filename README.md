@@ -48,5 +48,5 @@ LeeJS
                 ].map(([title,text])=>c(title,text))
               )
             ),
-      )();
+      )(); //render to page
 ```
